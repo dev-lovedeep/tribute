@@ -1,0 +1,84 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+h1,strong{
+    color: #333;
+}
+main{
+    background-color:#eee;
+}
+.heading-text{
+    
+    padding: 2em;
+    word-spacing: 2px;
+    color: #333;
+}
+.title{
+    font-weight:bold;
+    font-size:3em;
+}
+.subtitle{
+    font-size:1.5em;
+    margin-top:1em;
+    font-weight: normal;
+}
+.img-container{
+    background-color:#fff;
+    margin: 1em;
+}
+.img-container img{
+    display:block;
+    margin:0 auto;
+    max-width: 70%;
+}
+.img-caption{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 200;
+    padding:1em 0;
+    
+}
+.life-description h2{
+    font-weight:500;
+    margin-bottom: 2em;
+}
+.life-description {
+    width: 50%;
+    list-style-position: inside;
+    margin: 2em auto 3em auto;
+    
+}
+ul li{
+    text-align: start;
+    padding: 1em;
+    font-size: 1.13rem;
+    font-weight: 500;
+}
+.quote,q, .quote p{
+    text-align: justify;
+    font-size:1.1em;
+    padding: 1em;
+}
+.know-more{
+    display: block;
+    font-size: 1.17em;
+   margin: 1em 0;
+    font-weight: bold;
+    color: #333;
+}
+.know-more a{
+    color:#477ca7;
+}
+
+@media screen and (max-width:460px){
+    .life-description{
+        width: 100%;
+        
+    }
+    .img-caption{
+        font-size: 1em;
+    }
+}
